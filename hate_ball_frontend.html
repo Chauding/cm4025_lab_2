@@ -25,9 +25,7 @@
 			var response = this.responseText;	
 			console.log (response);						
 							
-			
      document.getElementById("answer").innerHTML = response;
-     
      
     }
 	};
@@ -41,8 +39,8 @@
 	  selected_type_index = ball_type.selectedIndex;
 	  selected_type = ball_type.options[selected_type_index].value;
 	  
-			
-	  req.open("GET", "http://imaginary-realities.com/hate_ball_get_post_no_format.php?question=" + question + "&action=" + selected_type, true);
+			//https://shielded-waters-02913.herokuapp.com/
+	  req.open("GET", "http://shielded-waters-02913.com/hate_ball_get_post_no_format.php?question=" + question + "&action=" + selected_type, true);
   	req.send();
 
 	}

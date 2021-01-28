@@ -70,6 +70,4 @@
 	echo "<h1>You asked the Magic Hate Ball the following question: $question</h1>";
 	echo "<h1>The hate ball answers: $text</h1>";
 	  
-
-
 ?>  
